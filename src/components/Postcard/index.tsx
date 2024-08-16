@@ -24,7 +24,7 @@ const Postcard = ({ img }: { img: string }) => {
       >
         <div
           className={`absolute top-[-200px] left-1/2 transform -translate-x-1/2 h-[180px] p-[calc(2 * ${r})] bg-foreground transition-[top,opacity] duration-1000 ease-in-out opacity-0 ${
-            isAnimated ? "top-[-1px] opacity-100" : ""
+            isAnimated ? "-top-[1px] opacity-100" : ""
           }`}
           style={{
             mask: `
