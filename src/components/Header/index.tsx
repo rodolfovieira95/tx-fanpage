@@ -8,10 +8,13 @@ export function Header() {
         <h1 className="font-bold text-xl">STMPD Fanpage</h1>
       </Link>
       <div className="flex justify-end w-full items-center gap-2">
+        <Link href="/artists">
+          <p>Artists</p>
+        </Link>
         <Link href="/collectable">
           <p>Collectables</p>
         </Link>
-        <p>Login</p>
+        <Link href="/auth">Login</Link>
         <ThemeToggle />
       </div>
     </header>
