@@ -1,3 +1,4 @@
+import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
 
 const config = {
@@ -22,6 +23,12 @@ const config = {
         "-1px": "-1px",
       },
       colors: {
+        cyan: {
+          400: "#00ffff",
+        },
+        purple: {
+          400: "#e100ff",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -70,10 +77,58 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        laser1: {
+          "0%, 100%": { opacity: "0.8", transform: "scaleY(1)" },
+          "50%": { opacity: "1", transform: "scaleY(1.5)" },
+        },
+        laser2: {
+          "0%, 100%": { opacity: "0.8", transform: "scaleY(1)" },
+          "50%": { opacity: "1", transform: "scaleY(1.2)" },
+        },
+        laser3: {
+          "0%, 100%": { opacity: "0.8", transform: "scaleY(1)" },
+          "50%": { opacity: "1", transform: "scaleY(1.3)" },
+        },
+        laserSweep: {
+          "0%, 100%": { transform: "translateX(-100%)" },
+          "50%": { transform: "translateX(100%)" },
+        },
+        laserSweepVertical: {
+          "0%, 100%": { transform: "translateY(-100%)" },
+          "50%": { transform: "translateY(100%)" },
+        },
+        flash: {
+          "0%, 100%": { opacity: "0" },
+          "10%": { opacity: "0.8" },
+          "11%": { opacity: "0" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        laserAmorph: {
+          "0%, 100%": { transform: "scaleY(1) translateY(0)", opacity: "0.5" },
+          "50%": { transform: "scaleY(1.5) translateY(-20%)", opacity: "0.8" },
+        },
+        flame: {
+          "0%, 100%": { transform: "scaleY(1)", opacity: "0.8" },
+          "50%": { transform: "scaleY(1.2)", opacity: "1" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        laser1: "laser1 4s infinite ease-in-out",
+        laser2: "laser2 3s infinite ease-in-out",
+        laser3: "laser3 5s infinite ease-in-out",
+        laser4: "laser4 6s infinite ease-in-out",
+        "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "laser-sweep": "laserSweep 5s ease-in-out infinite",
+        "laser-sweep-vertical": "laserSweepVertical 5s ease-in-out infinite",
+        flash: "flash 10s ease-out infinite",
+        float: "float 10s ease-in-out infinite",
+        "laser-amorph": "laserAmorph 8s ease-in-out infinite",
+        flame: "flame 3s ease-in-out infinite",
       },
     },
   },

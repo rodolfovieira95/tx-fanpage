@@ -1,0 +1,28 @@
+{
+  "common": {
+    "footer": "© 2024 Fanpage STMPD RCRDS. All rights reserved."
+  },
+  "home": {
+    "description": "Explore the sonic universe of the most innovative electronic music label",
+    "cta": "DISCOVER SOMETHING NEW",
+    "sections": {
+      "news": {
+        "title": "News",
+        "description": "The latest updates from STMPD RCRDS and its artists."
+      },
+      "playlist": {
+        "title": "Playlist",
+        "description": "Listen to the most recent tracks released by the label."
+      },
+      "community": {
+        "title": "Community",
+        "description": "Connect with other fans and share your passion."
+      }
+    }
+  },
+  "header": {
+    "artists": "Artists",
+    "collectables": "Collectables",
+    "login": "Login"
+  }
+}

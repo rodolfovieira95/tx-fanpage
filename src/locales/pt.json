@@ -1,0 +1,28 @@
+{
+  "common": {
+    "footer": "© 2024 Fanpage STMPD RCRDS. Todos os direitos reservados."
+  },
+  "home": {
+    "description": "Explore o universo sonoro da gravadora mais inovadora da música eletrônica",
+    "cta": "DESCUBRA O NOVO",
+    "sections": {
+      "news": {
+        "title": "Notícias",
+        "description": "As últimas atualizações da STMPD RCRDS e seus artistas."
+      },
+      "playlist": {
+        "title": "Playlist",
+        "description": "Ouça as faixas mais recentes lançadas pela gravadora."
+      },
+      "community": {
+        "title": "Comunidade",
+        "description": "Conecte-se com outros fãs e compartilhe sua paixão."
+      }
+    }
+  },
+  "header": {
+    "artists": "Artistas",
+    "collectables": "Colecionáveis",
+    "login": "Login"
+  }
+}

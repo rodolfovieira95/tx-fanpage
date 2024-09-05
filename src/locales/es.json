@@ -1,0 +1,28 @@
+{
+  "common": {
+    "footer": "© 2024 Fanpage STMPD RCRDS. Todos los derechos reservados."
+  },
+  "home": {
+    "description": "Explora el universo sonoro del sello discográfico más innovador de la música electrónica",
+    "cta": "DESCUBRE LO NUEVO",
+    "sections": {
+      "news": {
+        "title": "Noticias",
+        "description": "Las últimas actualizaciones de STMPD RCRDS y sus artistas."
+      },
+      "playlist": {
+        "title": "Lista de reproducción",
+        "description": "Escucha las pistas más recientes lanzadas por el sello."
+      },
+      "community": {
+        "title": "Comunidad",
+        "description": "Conéctate con otros fans y comparte tu pasión."
+      }
+    }
+  },
+  "header": {
+    "artists": "Artistas",
+    "collectables": "Colecionables",
+    "login": "Login"
+  }
+}

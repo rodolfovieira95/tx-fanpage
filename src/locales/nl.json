@@ -1,0 +1,28 @@
+{
+  "common": {
+    "footer": "© 2024 Fanpage STMPD RCRDS. Alle rechten voorbehouden."
+  },
+  "home": {
+    "description": "Verken het geluidsuniversum van het meest innovatieve elektronische muzieklabel",
+    "cta": "ONTDEK HET NIEUWE",
+    "sections": {
+      "news": {
+        "title": "Nieuws",
+        "description": "De laatste updates van STMPD RCRDS en hun artiesten."
+      },
+      "playlist": {
+        "title": "Afspeellijst",
+        "description": "Luister naar de nieuwste tracks uitgebracht door het label."
+      },
+      "community": {
+        "title": "Gemeenschap",
+        "description": "Maak contact met andere fans en deel je passie."
+      }
+    }
+  },
+  "header": {
+    "artists": "Artiesten",
+    "collectables": "Verzamelobjecten",
+    "login": "Login"
+  }
+}
